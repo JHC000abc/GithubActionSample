@@ -17,9 +17,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Install requests module
-        run: |
-          pwd && \
-          pip install -r ../../requirements.txt
+        run: pip install -r ../../requirements.txt
 
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
