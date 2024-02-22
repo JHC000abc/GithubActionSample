@@ -1,7 +1,7 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: test_Windows版
+name: test_Ubuntu版
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   pyinstaller-build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Install requests module
         run: pip install requests
