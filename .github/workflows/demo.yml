@@ -22,4 +22,4 @@ jobs:
           python_ver: '3.9'
           spec: 'test.py'
           upload_exe_with_name: 'test'
-          options: --onefile, --name "test", --windowed,
+          options: --onefile, --name "test",
